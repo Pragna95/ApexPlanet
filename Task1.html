@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>7 Wonders of the World</title>
+<link rel="stylesheet" href="Task1.css">
+</head>
+<body>
+
+<header>
+  <h1>Explore the 7 Wonders of the World</h1>
+</header>
+
+<section class="cards-container" aria-label="7 Wonders of the World">
+  <article class="card" tabindex="0" data-id="1">
+    <img src="great-wall-china-national-geographic.webp" alt="Great Wall of China"/>
+    <div class="card-content">
+      <h2>Great Wall of China</h2>
+      <p>A series of fortifications built along the historical northern borders of China to protect against invasions.</p>
+    </div>
+  </article>
+
+  <article class="card" tabindex="0" data-id="2">
+    <img src="christ-the-redeemer-statue-rio-1-scaled.webp" alt="Christ the Redeemer"/>
+    <div class="card-content">
+      <h2>Christ the Redeemer</h2>
+      <p>Iconic statue in Rio de Janeiro, Brazil, symbolizing peace and Christianity, standing 30 meters tall.</p>
+    </div>
+  </article>
+
+  <article class="card" tabindex="0" data-id="3">
+    <img src="machu-picchu-world-wonder.webp" alt="Machu Picchu"/>
+    <div class="card-content">
+      <h2>Machu Picchu</h2>
+      <p>An Incan citadel set high in the Andes Mountains in Peru, famous for its sophisticated dry-stone walls.</p>
+    </div>
+  </article>
+
+  <article class="card" tabindex="0" data-id="4">
+    <img src="the-taj-mahal-architectural-digest.webp" alt="Taj Mahal"/>
+    <div class="card-content">
+      <h2>Taj Mahal</h2>
+      <p>A white marble mausoleum built by Emperor Shah Jahan in memory of his wife Mumtaz Mahal.</p>
+    </div>
+  </article>
+
+  <article class="card" tabindex="0" data-id="5">
+    <img src="colosseum-world-wonder-national-geographic.webp" alt="Colosseum"/>
+    <div class="card-content">
+      <h2>Colosseum</h2>
+      <p>An ancient amphitheater in Rome, Italy, known for gladiatorial contests and public spectacles.</p>
+    </div>
+  </article>
+
+  <article class="card" tabindex="0" data-id="6">
+    <img src="chichen-itza-image-1-1.webp" alt="Chichen Itza"/>
+    <div class="card-content">
+      <h2>Chichen Itza</h2>
+      <p>A large pre-Columbian archaeological site built by the Maya civilization in the Yucatán Peninsula, Mexico.</p>
+    </div>
+  </article>
+
+  <article class="card" tabindex="0" data-id="7">
+    <img src="petra-jordan-world-wonder-scaled-1.webp" alt="Petra"/>
+    <div class="card-content">
+      <h2>Petra</h2>
+      <p>A historical and archaeological city in southern Jordan famous for its rock-cut architecture and water conduit system.</p>
+    </div>
+  </article>
+</section>
+
+<div class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-desc">
+  <div class="modal">
+    <span class="modal-close" aria-label="Close modal" role="button" tabindex="0">&times;</span>
+    <img src="" alt="" id="modal-img" />
+    <div class="modal-content">
+      <h2 id="modal-title"></h2>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="Task1.js"></script>
+</body>
+</html>
